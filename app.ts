@@ -20,8 +20,6 @@ console.log(myMultiple(1,2))
 // union type
 let myVar: string | number = 'Hi there'
 myVar = 23
-myVar = false
 
 // strict null check
-let foo = 12
-foo = null
+let canBeNull: number | null
